@@ -67,7 +67,7 @@ createRoot(container).render(
     <Provider store={store}>
       <FeatureFlagsProvider>
         <QueryClientProvider client={queryClient}>
-          <Router>
+          <Router basename="/apps/uniswap" >
             <LanguageProvider>
               <Web3Provider>
                 <ApolloProvider client={apolloClient}>
