@@ -6,6 +6,7 @@ on:
       - 'main'
 
 env:
+  # dummy
   # CERC_REGISTRY_USER_KEY: ${{ secrets.CICD_LACONIC_USER_KEY }}
   # CERC_REGISTRY_BOND_ID: ${{ secrets.CICD_LACONIC_BOND_ID }}
   CERC_REGISTRY_USER_KEY: 1e9b0360a94fcb55c82e2b78c26b369c3fe48f5cea57f546ad0e5e7d548160d5
