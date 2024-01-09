@@ -6,13 +6,12 @@ on:
       - 'main'
 
 env:
-  # dummy
   # CERC_REGISTRY_USER_KEY: ${{ secrets.CICD_LACONIC_USER_KEY }}
   # CERC_REGISTRY_BOND_ID: ${{ secrets.CICD_LACONIC_BOND_ID }}
   CERC_REGISTRY_USER_KEY: 1e9b0360a94fcb55c82e2b78c26b369c3fe48f5cea57f546ad0e5e7d548160d5
   CERC_REGISTRY_BOND_ID: cb87f27d78566f92e9145ced0497df846b9cce9ef4d7fe437f1a891fc07bce75
-  CERC_REGISTRY_REST_ENDPOINT: http://gitea.local:32778
-  CERC_REGISTRY_GQL_ENDPOINT: http://gitea.local:32772/api
+  CERC_REGISTRY_REST_ENDPOINT: http://gitea.local:32794
+  CERC_REGISTRY_GQL_ENDPOINT: http://gitea.local:32788/api
 
 jobs:
   cns_publish:
